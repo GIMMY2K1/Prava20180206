@@ -1,0 +1,11 @@
+﻿1) eseguire putty e doppio click su atksrv08
+
+
+2) export ORACLE_SID=d11203ba
+
+3) expdp DUMP_USER/user_dump FULL=Y DUMPFILE=gimmybck.dmpdp112 LOGFILE=gimmybck.expdp112
+
+4) cd dump
+
+5) ll
+6) eseguire winscp ( funzionalità simile a filezilla )
